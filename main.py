@@ -6,11 +6,12 @@ print(student_scores)
 # 🚨 Don't change the code above 👆
 
 #Write your code below this row 👇
-max=0
+max0=0
 for score in student_scores:
-  if score>max:
-    max=score
-print(f"The highest score in class is: {max}")
+  if score>max0:
+    max0=score
+print(f"The highest score in class is: {max0}")
 
 
-
+print(min(student_scores))
+print(max(student_scores))
